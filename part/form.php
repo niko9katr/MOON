@@ -1,5 +1,5 @@
 <?php 
-    require_once'part/db.php';
+    
 
     if(isset($_POST['submit'])){
 
@@ -31,7 +31,7 @@
         <p class="lead">Ceci est un formulair pour l inscription de la base au marathon.<br> maintenant esayer de vous inscrire!!!.</p>
     </div>
     <fieldset>
-        <legend>Contact</legend>
+        <legend>connetion</legend>
             <form id="formulair" method="POST"  name="formulair" autocomplete="on">         
                 <p>
                     <label for="nom">nom:</label> 
